@@ -1,1 +1,1 @@
-https://alexeistel.github.io/Singolo-Dom/
+https://alexeistel.github.io/Singolo-Dom/Singolo-Dom/
