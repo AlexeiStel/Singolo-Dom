@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="./assets/fonts/fonts.css">
     </head>   
     <body>
+        <div id="wrapper">
+        <div id="home">
         <header class="header">
             <div class="header__content">
                 <div class="header__title">
@@ -23,13 +25,13 @@
                     </ul>
                </nav>
             </div>
-        </header>      
-        <main class="main" id="home">
+        </header>  
+        <main class="main">
             <div class='container'>
                 <div class="container__slide"> 
                     <div class="slide active">                    
                         <div class="vertical">
-                            <img src="./assets/image/photoeditorsdk-export (2).png" alt="vertical Iphone" class="vertical iphone"  id="phone" >
+                            <img src="./assets/image/photoeditorsdk-export (2).png" alt="vertical Iphone" class="iphone"  id="phone" >
                             <img src="./assets/image/iPhone Vertical black.png" alt="vertical Iphone shadow" class="vertical-black" id="black">
                         </div>
                         <div class="horisontal">                            
@@ -37,7 +39,7 @@
                             <img src="./assets/image/iPhone Vertical black.png" alt="horisontal Iphone shadow" class="horisontal-black" id="black" >
                         </div>
                     </div>
-                    <div class="slide">
+                    <div class="slide line">
                         <img src="./assets/image/Slide-2.png" alt='slide-2'>
                     </div>
                 </div>
@@ -48,6 +50,8 @@
                     <img src="./assets/image/chevleft.svg" alt="next slide" class="arrow arrow-next">
                 </div>
             </div>
+        </main>  
+        </div>
             <div class="services" id="services">           
                 <div class="our-services">
                     <h2 class="services__title">Our Services</h2>
@@ -86,8 +90,7 @@
                     </div>   
                 </section>       
             </div>
-        </main>  
-        <section class="portfolio" id="portfolio">
+        <div class="portfolio" id="portfolio">
             <div class="wrapper">
                 <h1 class="portfolio__title">Portfolio</h1>
                 <p class="portfolio__title-item">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
@@ -112,8 +115,8 @@
                     <img class='layout__content-image' src="./assets/image/Project (1).png">
                 </div>    
             </div>     
-        </section>
-        <section class="about__us" id="about">
+        </div>
+        <div class="about__us" id="about">
             <div class="wrapper">
                 <h3 class="about-us__title">About Us</h3>
                 <p class="about-us__title-item">Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -201,8 +204,8 @@
                         </div>
                     </div>
                 </div> 
-            </div>
-        </section>
+            
+        </div>
         <div class="last__quote" id="contact">
             <section class="quote">
                     <h3 class="quote__title">Get a Quote</h3>
@@ -222,7 +225,7 @@
                                 <textarea class="contact__form-area" id="describe" action method="POST" name="project" placeholder="Describe your project in detail..."></textarea>
                             </p>    
                             <p class="contact__form-item">
-                                <button id="btn" class="button-form" type="button">Submit</button>
+                                <button id="btn" class="button-form" type="reset">Submit</button>
                             </p>
                         </form>
                         <div id="message-block" class="hidden">
@@ -283,6 +286,7 @@
                 </div>
             </footer>
         </div> 
+    </div>
         <script src="script.js"></script>
     </body>
 </html>
