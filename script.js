@@ -6,14 +6,16 @@ menu.querySelectorAll('A').forEach(elem =>
     event.target.classList.add('current');    
 });
 
+
 document.addEventListener('scroll', onScroll);
 function onScroll(event) {
     const currentPosition = window.scrollY;
     const divs = document.querySelectorAll('#wrapper>div');
     const links = document.querySelectorAll('#menu a.list-link');
+    const header = document.querySelector('header');
     console.log(divs);
     divs.forEach(elem => {
-        if (elem.offsetTop <= currentPosition && elem.offsetTop + elem.offsetHeight > currentPosition) {
+        if (elem.offsetTop <= currentPosition && (elem.offsetTop + elem.offsetHeight - header.offsetHeight) > currentPosition) {
             links.forEach((a) => {
                 a.classList.remove('current');
                 if (elem.getAttribute('id') === a.getAttribute('href').substring(1)) {
@@ -23,6 +25,7 @@ function onScroll(event) {
         }
     })
 };
+
 
 const phone = document.querySelector('.vertical');
 const black = phone.querySelector('.vertical-black');
@@ -47,7 +50,7 @@ let isEnabled = true;
 function changeCurrentSlide(n) {
     currentSlide = (n + slide.length) % slide.length;
 }
-
+console.log( currentSlide);
 function hideSlide(direction) {
     isEnabled = false;
     slide[currentSlide].classList.add(direction);
@@ -64,7 +67,6 @@ function showSlide(direction) {
         isEnabled = true;
     });
 }    
-
 function previousSlide(n) {
     hideSlide('to-left');
     changeCurrentSlide(n - 1);
@@ -144,4 +146,12 @@ closeBtn.addEventListener('click', () => {
     document.getElementById('result-describe').innerText = '';
     document.getElementById('message-block').classList.add('hidden');
     
+});
+
+// burger-menu
+let burgerButton = document.querySelector('.burger-menu__button');
+let burgerMenu = document.querySelector('.burger-menu');
+
+burgerButton.addEventListener('click', (event) => {
+    burgerMenu.classList.toggle('burger-menu__active');
 });

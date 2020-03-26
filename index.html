@@ -8,285 +8,296 @@
         <link rel="stylesheet" href="./assets/fonts/fonts.css">
     </head>   
     <body>
-        <div id="wrapper">
-        <div id="home">
-        <header class="header">
-            <div class="header__content">
-                <div class="header__title">
-                    <h1>Singolo<span class="header-star">*</span></h1>
-                </div>
-                <nav class="navigation">
-                    <ul class="navigation__list" id="menu">
-                        <li class="list-item current"><a href="#home" class="list-link">Home</a></li>
-                        <li class="list-item"><a href="#services" class="list-link">Services</a></li>
-                        <li class="list-item"><a href="#portfolio" class="list-link">Portfolio</a></li>
-                        <li class="list-item"><a href="#about" class="list-link">About</a></li>
-                        <li class="list-item"><a href="#contact" class="list-link">Contact</a></li>
-                    </ul>
-               </nav>
-            </div>
-        </header>  
-        <main class="main">
-            <div class='container'>
-                <div class="container__slide"> 
-                    <div class="slide active">                    
-                        <div class="vertical">
-                            <img src="./assets/image/photoeditorsdk-export (2).png" alt="vertical Iphone" class="iphone"  id="phone" >
-                            <img src="./assets/image/iPhone Vertical black.png" alt="vertical Iphone shadow" class="vertical-black" id="black">
-                        </div>
-                        <div class="horisontal">                            
-                            <img src="./assets/image/photoeditorsdk-export (3).png" alt="horisontal Iphone" class="iphone" id="phone">
-                            <img src="./assets/image/iPhone Vertical black.png" alt="horisontal Iphone shadow" class="horisontal-black" id="black" >
+        <div class="wrapper" id="wrapper">
+          <div id="home" class="home">   
+            <header class="header">
+                    <div class="cont">
+                    <div class="header__content">
+                        <div class="burger-menu"> 
+                            <a href="#"  class="burger-menu__button">
+                                <span class="burger-menu__lines">
+                                    <div class="header__title">
+                                        <h1 class="burger-rotate">Singolo<span class="header-star">*</span></h1>
+                                    </div>
+                                </span>
+                            </a>
+                                <nav class="navigation">
+                                    <ul class="navigation__list" id="menu">
+                                        <li class="list-item current"><a href="#home" class="list-link home">Home</a></li>
+                                        <li class="list-item"><a href="#services" class="list-link">Services</a></li>
+                                        <li class="list-item"><a href="#portfolio" class="list-link">Portfolio</a></li>
+                                        <li class="list-item"><a href="#about" class="list-link">About</a></li>
+                                        <li class="list-item"><a href="#contact" class="list-link">Contact</a></li>
+                                    </ul>
+                                </nav> 
                         </div>
                     </div>
-                    <div class="slide line">
-                        <img src="./assets/image/Slide-2.png" alt='slide-2'>
-                    </div>
                 </div>
-                <div class="control left">
-                    <img src="./assets/image/chev.svg" alt="previous slide" class="arrow arrow-previous">
-                </div>
-                <div class="control right">   
-                    <img src="./assets/image/chevleft.svg" alt="next slide" class="arrow arrow-next">
-                </div>
-            </div>
-        </main>  
-        </div>
-            <div class="services" id="services">           
-                <div class="our-services">
-                    <h2 class="services__title">Our Services</h2>
-                    <p class="services__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                </div>
-                <section class="cardservices">
-                    <div class="cardelement">
-                        <img src="./assets/image/Pen.png" class="pen">
-                        <h4 class="cardtitle_pen">Custom Design</h4>
-                        <p class="carddescription_pen carddescriptionfont">Curabitur vestibulum eget mauris quis laoreey. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-                    </div>
-                    <div class="cardelement">
-                        <img src="./assets/image/Bulb.png" class="bulb">
-                        <h4 class="cardtitle_bulb">Inovative Ideas</h4>
-                        <p class="carddescription_bulb carddescriptionfont">Quisque luctus, quam eget molestie com&shy;modo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-                    </div>
-                    <div class="cardelement">
-                        <img src="./assets/image/Heart.png" class="heart">
-                        <h4 class="cardtitle_heart">Love is The Answer</h4>
-                        <p class="carddescription_heart carddescriptionfont">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-                    </div>
-                    <div class="cardelement">
-                        <img src="./assets/image/Phone.png" class="phone">
-                        <h4 class="cardtitle_phone">Responsive Layout</h4>
-                        <p class="carddescription_phone carddescriptionfont">Sed porttitor placerat rhoncus. In a nunc tellus. Maecenas blandit nunc ligula. Prae&shy;sent elit leo.</p>
-                    </div>    
-                    <div class="cardelement">
-                        <img src="./assets/image/Bubble.png" class="bubble">
-                        <h4 class="cardtitle_bubble">24 / 7 Support</h4>
-                        <p class="carddescription_bubble carddescriptionfont">Vivamus vel quam lacinia, tindidunt dui non, vehicula nisi. Nulla a sem erat. Pellen&shy;tesque egestas venenatis lorem.</p>
-                    </div>
-                    <div class="cardelement">
-                        <img src="./assets/image/Star.png" class="astar">
-                        <h4 class="cardtitle_star">Feel Like A Star</h4>
-                        <p class="carddescription_star carddescriptionfont">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
-                    </div>   
-                </section>       
-            </div>
-        <div class="portfolio" id="portfolio">
-            <div class="wrapper">
-                <h1 class="portfolio__title">Portfolio</h1>
-                <p class="portfolio__title-item">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-                <div class="button-nav" id="tab">
-                    <button class="button button-all act">All</button>
-                    <button class="button button-web">Web Design</button>
-                    <button class="button button-graphic">Graphic Design</button>
-                    <button class="button button-art">Artwork</button>
-                </div>                
-                <div class="layout__content">
-                    <img class='layout__content-image' src="./assets/image/Project (9).png">
-                    <img class='layout__content-image' src="./assets/image/Project (6).png">                        
-                    <img class='layout__content-image' src="./assets/image/Layer 9.png">
-                    <img class='layout__content-image' src="./assets/image/Project (2).png">
-                    <img class='layout__content-image' src="./assets/image/Project (8).png">
-                    <img class='layout__content-image' src="./assets/image/Project (5).png">
-                    <img class='layout__content-image' src="./assets/image/Layer 11.png">
-                    <img class='layout__content-image' src="./assets/image/Layer 8.png">
-                    <img class='layout__content-image' src="./assets/image/Project (7).png">
-                    <img class='layout__content-image' src="./assets/image/Project (4).png">
-                    <img class='layout__content-image' src="./assets/image/Project (3).png">
-                    <img class='layout__content-image' src="./assets/image/Project (1).png">
-                </div>    
-            </div>     
-        </div>
-        <div class="about__us" id="about">
-            <div class="wrapper">
-                <h3 class="about-us__title">About Us</h3>
-                <p class="about-us__title-item">Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <div class="worker">
-                    <div class="worker__person">
-                        <img class="worker__person-image" src="./assets/image/photo.png">
-                        <h3 class="worker__person-name">Adam Jensen</h3>
-                        <p class="worker__person-info">Quisque luctus, quam eget molesie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-                            <div class="social__link">
-                                <span class="link">
-                                    <a href="facebook" class="link-name">
-                                    <img src="./assets/image/facebook.png" alt="Facebook">
-                                    </a>
-                                </span>
-                                <span class="link">
-                                    <a href="google" class="link-name">
-                                    <img src="./assets/image/Google.png" alt="Google">
-                                    </a>
-                                </span>        
-                                <span class="link">
-                                    <a href="twitter" class="link-name">
-                                    <img src="./assets/image/twitter.png" alt="Twitter">
-                                    </a>
-                                </span>    
-                                <span class="link">
-                                    <a href="linkedin" class="link-name">
-                                    <img src="./assets/image/linkedin.png" alt="LinkedIn">
-                                    </a>
-                                </span>
+                </header>  
+                <main class="main" >
+                    <div class="container">
+                        <div class="container__slide"> 
+                            <div class="slide active">                    
+                                <div class="vertical">
+                                    <img src="./assets/image/verticalphone.png" alt="vertical Iphone" class="iphone"  id="phone" >
+                                    <img src="./assets/image/iPhone Vertical black.png" alt="vertical Iphone shadow" class="vertical-black" id="black">
+                                </div>
+                                <div class="horisontal">                            
+                                    <img src="./assets/image/horisontphone.png" alt="horisontal Iphone" class="iphone" id="phone">
+                                    <img src="./assets/image/iPhone Vertical black.png" alt="horisontal Iphone shadow" class="horisontal-black" id="black" >
+                                </div>
                             </div>
+                            <div class="slide line">
+                                <img src="./assets/image/Slide-2.png" alt='slide-2'>
+                            </div>
+                        </div>
+                        <div class="control left">
+                            <img src="./assets/image/chev.svg" alt="previous slide" class="arrow arrow-previous">
+                        </div>
+                        <div class="control right">   
+                            <img src="./assets/image/chevleft.svg" alt="next slide" class="arrow arrow-next">
+                        </div>
+                    </div>
+                </main>
+          </div>   
+                <div class="services" id="services"> 
+                    <div class="services-cont">          
+                    <div class="our-services">
+                        <h2 class="services__title">Our Services</h2>
+                        <p class="services__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    </div>
+                    <section class="cardservices">
+                        <div class="cardelement">
+                            <img src="./assets/image/Pen.png" class="pen">
+                            <h4 class="cardtitle_pen">Custom Design</h4>
+                            <p class="carddescription_pen carddescriptionfont">Curabitur vestibulum eget mauris quis laoreey. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                        </div>
+                        <div class="cardelement">
+                            <img src="./assets/image/Bulb.png" class="bulb">
+                            <h4 class="cardtitle_bulb">Inovative Ideas</h4>
+                            <p class="carddescription_bulb carddescriptionfont">Quisque luctus, quam eget molestie com&shy;modo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                        </div>
+                        <div class="cardelement">
+                            <img src="./assets/image/Heart.png" class="heart">
+                            <h4 class="cardtitle_heart">Love is The Answer</h4>
+                            <p class="carddescription_heart carddescriptionfont">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                        </div>
+                        <div class="cardelement">
+                            <img src="./assets/image/Phone.png" class="phone">
+                            <h4 class="cardtitle_phone">Responsive Layout</h4>
+                            <p class="carddescription_phone carddescriptionfont">Sed porttitor placerat rhoncus. In a nunc tellus. Maecenas blandit nunc ligula. Prae&shy;sent elit leo.</p>
+                        </div>    
+                        <div class="cardelement">
+                            <img src="./assets/image/Bubble.png" class="bubble">
+                            <h4 class="cardtitle_bubble">24 / 7 Support</h4>
+                            <p class="carddescription_bubble carddescriptionfont">Vivamus vel quam lacinia, tindidunt dui non, vehicula nisi. Nulla a sem erat. Pellen&shy;tesque egestas venenatis lorem.</p>
+                        </div>
+                        <div class="cardelement">
+                            <img src="./assets/image/Star.png" class="astar">
+                            <h4 class="cardtitle_star">Feel Like A Star</h4>
+                            <p class="carddescription_star carddescriptionfont">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                        </div>   
+                    </section>       
+                </div>
+            </div>
+            <div class="portfolio" id="portfolio">
+                <div class="portfolio_cont">
+                    <h1 class="portfolio__title">Portfolio</h1>
+                    <p class="portfolio__title-item">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                    <div class="button-nav" id="tab">
+                        <button class="button button-all act">All</button>
+                        <button class="button button-web">Web Design</button>
+                        <button class="button button-graphic">Graphic Design</button>
+                        <button class="button button-art">Artwork</button>
+                    </div>                
+                    <div class="layout__content">
+                        <img class='layout__content-image' src="./assets/image/Project (9).png">
+                        <img class='layout__content-image' src="./assets/image/Project (6).png">                        
+                        <img class='layout__content-image' src="./assets/image/Layer 9.png">
+                        <img class='layout__content-image' src="./assets/image/Project (2).png">
+                        <img class='layout__content-image' src="./assets/image/Project (8).png">
+                        <img class='layout__content-image' src="./assets/image/Project (5).png">
+                        <img class='layout__content-image' src="./assets/image/Layer 11.png">
+                        <img class='layout__content-image' src="./assets/image/Layer 8.png">
+                        <img class='layout__content-image' src="./assets/image/Project (7).png">
+                        <img class='layout__content-image' src="./assets/image/Project (4).png">
+                        <img class='layout__content-image' src="./assets/image/Project (3).png">
+                        <img class='layout__content-image' src="./assets/image/Project (1).png">
                     </div>    
-                        <div class="worker__person">
-                            <img class="worker__person-image" src="./assets/image/photo (1).png">
-                            <h3 class="worker__person-name">Desmond Miles</h3>
-                            <p class="worker__person-info">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-                                <div class="social__link">
-                                    <span class="link">
+                </div>    
+            </div>
+                <div class="about__us" id="about">
+                    <div class="about_us-cont">
+                        <h3 class="about-us__title">About Us</h3>
+                        <p class="about-us__title-item">Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        <div class="worker">
+                            <div class="worker__person">
+                                <img class="worker__person-image" src="./assets/image/photo.png" alt="Adam Jensen">
+                                <h3 class="worker__person-name">Adam Jensen</h3>
+                                <p class="worker__person-info">Quisque luctus, quam eget molesie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                                    <div class="social__link">
+                                        <span class="link">
+                                            <a href="facebook" class="link-name">
+                                            <img src="./assets/image/facebook.png" alt="Facebook">
+                                            </a>
+                                        </span>
+                                        <span class="link">
+                                            <a href="google" class="link-name">
+                                            <img src="./assets/image/Google.png" alt="Google">
+                                            </a>
+                                        </span>        
+                                        <span class="link">
+                                            <a href="twitter" class="link-name">
+                                            <img src="./assets/image/twitter.png" alt="Twitter">
+                                            </a>
+                                        </span>    
+                                        <span class="link">
+                                            <a href="linkedin" class="link-name">
+                                            <img src="./assets/image/linkedin.png" alt="LinkedIn">
+                                            </a>
+                                        </span>
+                                    </div>
+                            </div>    
+                                <div class="worker__person">
+                                    <img class="worker__person-image" src="./assets/image/photo (1).png" alt="Desmond Miles">
+                                    <h3 class="worker__person-name">Desmond Miles</h3>
+                                    <p class="worker__person-info">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                                        <div class="social__link">
+                                            <span class="link">
+                                                <a href="facebook" class="link-name">
+                                                <img src="./assets/image/facebook.png" alt="Facebook">
+                                                </a>
+                                            </span>
+                                            <span class="link">
+                                                <a href="google" class="link-name">
+                                                <img src="./assets/image/Google.png" alt="Google">
+                                                </a>
+                                            </span>        
+                                            <span class="link">
+                                                <a href="twitter" class="link-name"> 
+                                                <img src="./assets/image/twitter.png" alt="Twitter">
+                                                </a>
+                                            </span>    
+                                            <span class="link">
+                                                <a href="linkedin" class="link-name">
+                                                <img src="./assets/image/linkedin.png" alt="LinkedIn">
+                                                </a>
+                                            </span>
+                                        </div>
+                                </div>
+                                <div class="worker__person">                            
+                                    <img class="worker__person-image" src="./assets/image/photo (2).png" alt="Scolara Visari">
+                                    <h3 class="worker__person-name">Scolara Visari</h3>
+                                    <p class="worker__person-info">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                                        <div class="social__link">
+                                            <span class="link">
+                                                <a href="facebook" class="link-name">
+                                                <img src="./assets/image/facebook.png" alt="Facebook">
+                                                </a>
+                                            </span>
+                                            <span class="link">
+                                                <a href="google" class="link-name">
+                                                <img src="./assets/image/Google.png" alt="Goggle">
+                                                </a>
+                                            </span>        
+                                            <span class="link">
+                                                <a href="twitter" class="link-name">
+                                                <img src="./assets/image/twitter.png" alt="Twitter">
+                                                </a>
+                                            </span>    
+                                            <span class="link">
+                                                <a href="linkedin" class="link-name">
+                                                <img src="./assets/image/linkedin.png" alt="LinkedIn">
+                                                </a>
+                                            </span>
+                                        </div>
+                                </div>
+                            </div>
+                        </div> 
+                
+              </div>
+                        <div class="last__quote" id="contact">
+                            <section class="quote">
+                                    <h3 class="quote__title">Get a Quote</h3>
+                                    <p class="quote__title-item">Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum nibh.</p>
+                                    <div class="contact">
+                                        <form class="contact__form">
+                                            <p class="contact__form-item">
+                                                <input class="contact__form-elem" action method="POST" type="text" name="name" placeholder="Name (Required)" required>
+                                            </p>  
+                                            <p class="contact__form-item">
+                                                <input class="contact__form-elem" action method="POST" type="email" name="mail" placeholder="Email (Required)" required>
+                                            </p>
+                                            <p class="contact__form-item">
+                                                <input class="contact__form-elem" id="themes" action method="POST" type="text" name="subject" placeholder="Subject">
+                                            </p>
+                                            <p class="contact__area">
+                                                <textarea class="contact__form-area" id="describe" action method="POST" name="project" placeholder="Describe your project in detail..."></textarea>
+                                            </p>    
+                                            <p class="contact__form-button">
+                                                <button id="btn" class="button-form" type="reset">Submit</button>
+                                            </p>
+                                        </form>
+                                        <div id="message-block" class="hidden">
+                                            <div id="message">
+                                                <p>Письмо отправлено
+                                                    <br>
+                                                    <span id="result-themes"></span>
+                                                    <br>
+                                                    <span id="result-describe"></span>
+                                                </p>
+                                                <button id="close-btn">Ok</button>
+                                            </div>    
+                                        </div>
+                                        <section class="contact__info">
+                                            <h3 class="contact__info-title">Contact information</h3>
+                                            <p class="contact-info__title-item">Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shyra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Mordi at aliquet turpis, et consequat felis.</p>
+                                            <div class="contact__ico">
+                                                <p class="ico ico-info__location">
+                                                    <img src="./assets/image/location.png" class="ico_location">Elm St. 14/05 Lost City
+                                                </p>    
+                                                <p class="ico ico-info__phone">
+                                                    <img  src="./assets/image/phonecontact.png" class="ico_phone"><a  href="tel:035111111111">03528 331 86 35</a> 
+                                                </p>
+                                                <p class="ico ico-info__letter">
+                                                    <img src="./assets/image/mail.png" class="ico_letter"><a href="mailto:emailname@gmail.com" >info@singolo.com</a>
+                                                </p>
+                                            </div>        
+                                        </section>
+                                    </div>    
+                            </section>
+                        </div> 
+                            <footer class="footer">
+                                <div class="footer-cont">
+                                <p class="footer-text">© Copyright 2013 · by PSDchat.com</p>
+                                <div class="footer-social__link">
+                                    <span class="footer-link">
                                         <a href="facebook" class="link-name">
+
                                         <img src="./assets/image/facebook.png" alt="Facebook">
-                                         </a>
+                                        </a>
                                     </span>
-                                    <span class="link">
+                                    <span class="footer-link">
                                         <a href="google" class="link-name">
                                         <img src="./assets/image/Google.png" alt="Google">
                                         </a>
                                     </span>        
-                                    <span class="link">
-                                        <a href="twitter" class="link-name"> 
-                                        <img src="./assets/image/twitter.png" alt="Twitter">
-                                        </a>
-                                    </span>    
-                                    <span class="link">
-                                        <a href="linkedin" class="link-name">
-                                        <img src="./assets/image/linkedin.png" alt="LinkedIn">
-                                        </a>
-                                    </span>
-                                </div>
-                        </div>
-                        <div class="worker__person">                            
-                            <img class="worker__person-image" src="./assets/image/photo (2).png">
-                            <h3 class="worker__person-name">Scolara Visari</h3>
-                            <p class="worker__person-info">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-                                <div class="social__link">
-                                    <span class="link">
-                                        <a href="facebook" class="link-name">
-                                        <img src="./assets/image/facebook.png" alt="Facebook">
-                                        </a>
-                                    </span>
-                                    <span class="link">
-                                        <a href="google" class="link-name">
-                                        <img src="./assets/image/Google.png" alt="Goggle">
-                                        </a>
-                                    </span>        
-                                    <span class="link">
+                                    <span class="footer-link">
                                         <a href="twitter" class="link-name">
                                         <img src="./assets/image/twitter.png" alt="Twitter">
                                         </a>
                                     </span>    
-                                    <span class="link">
+                                    <span class="footer-link">
                                         <a href="linkedin" class="link-name">
                                         <img src="./assets/image/linkedin.png" alt="LinkedIn">
                                         </a>
                                     </span>
                                 </div>
-                        </div>
-                    </div>
-                </div> 
-            
-        </div>
-        <div class="last__quote" id="contact">
-            <section class="quote">
-                    <h3 class="quote__title">Get a Quote</h3>
-                    <p class="quote__title-item">Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, telluc ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <div class="contact">
-                        <form class="contact__form">
-                            <p class="contact__form-item">
-                                <input class="contact__form-elem" action method="POST" type="text" name="name" placeholder="Name (Required)" required>
-                            </p>  
-                            <p class="contact__form-item">
-                                <input class="contact__form-elem" action method="POST" type="email" name="mail" placeholder="Email (Required)" required>
-                            </p>
-                            <p class="contact__form-item">
-                                <input class="contact__form-elem" id="themes" action method="POST" type="text" name="subject" placeholder="Subject">
-                            </p>
-                            <p class="contact__form-item">
-                                <textarea class="contact__form-area" id="describe" action method="POST" name="project" placeholder="Describe your project in detail..."></textarea>
-                            </p>    
-                            <p class="contact__form-item">
-                                <button id="btn" class="button-form" type="reset">Submit</button>
-                            </p>
-                        </form>
-                        <div id="message-block" class="hidden">
-                            <div id="message">
-                                <p>Письмо отправлено
-                                    <br>
-                                    <span id="result-themes"></span>
-                                    <br>
-                                    <span id="result-describe"></span>
-                                </p>
-                                <button id="close-btn">Ok</button>
-                            </div>    
-                        </div>
-                        <section class="contact__info">
-                            <h3 class="contact__info-title">Contact information</h3>
-                            <p class="contact-info__title-item">Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shyra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Mordi at aliquet turpis, et consequat felis.</p>
-                            <div class="contact__ico">
-                                <p class="ico ico-info__location">
-                                    <img src="./assets/image/location.png" class="ico_location">Elm St. 14/05 Lost City
-                                </p>    
-                                <p class="ico ico-info__phone">
-                                    <img  src="./assets/image/phonecontact.png" class="ico_phone"><a  href="tel:035111111111">03528 331 86 35</a> 
-                                </p>
-                                <p class="ico ico-info__letter">
-                                    <img src="./assets/image/mail.png" class="ico_letter"><a href="mailto:emailname@gmail.com" >info@singolo.com</a>
-                                </p>
-                            </div>        
-                        </section>
-                    </div>    
-            </section>
-            <footer class="footer">
-                
-                   <p class="footer-text">© Copyright 2013 · by PSDchat.com</p>
-
-                
-                <div class="footer-social__link">
-                    <span class="footer-link">
-                        <a href="facebook" class="link-name">
-
-                        <img src="./assets/image/facebook.png" alt="Facebook">
-                        </a>
-                    </span>
-                    <span class="footer-link">
-                        <a href="google" class="link-name">
-                        <img src="./assets/image/Google.png" alt="Google">
-                        </a>
-                    </span>        
-                    <span class="footer-link">
-                        <a href="twitter" class="link-name">
-                        <img src="./assets/image/twitter.png" alt="Twitter">
-                        </a>
-                    </span>    
-                    <span class="footer-link">
-                        <a href="linkedin" class="link-name">
-                        <img src="./assets/image/linkedin.png" alt="LinkedIn">
-                        </a>
-                    </span>
-                </div>
-            </footer>
-        </div> 
+                            </div>
+                            </footer>
+                       
     </div>
+
         <script src="script.js"></script>
     </body>
 </html>
