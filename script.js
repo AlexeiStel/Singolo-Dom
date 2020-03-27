@@ -3,7 +3,8 @@ menu.addEventListener('click', (event) => {
 menu.querySelectorAll('A').forEach(elem => 
     elem.classList.remove('current')
 );
-    event.target.classList.add('current');    
+    event.target.classList.add('current');
+    burgerMenu.classList.remove('burger-menu__active');    
 });
 
 
@@ -21,27 +22,27 @@ function onScroll(event) {
                 if (elem.getAttribute('id') === a.getAttribute('href').substring(1)) {
                     a.classList.add('current');
                 }
-            })
+            });
         }
-    })
-};
+    });
+}
 
 
 const phone = document.querySelector('.vertical');
-const black = phone.querySelector('.vertical-black');
+const black = document.querySelector('.vertical-black');
 phone.addEventListener('click', (event) => {
-        if (event.target.style.opacity == 1) {
-            black.style.opacity = 0;
-        } event.target.style.opacity = 1;
+        if (event.target.classList.contains('iphone')) {
+                black.classList.toggle('display-visible');
+        }
     });    
 
 const phoneHor = document.querySelector('.horisontal');
 const blackHor = phoneHor.querySelector('.horisontal-black');
 phoneHor.addEventListener('click', (event) => {
-    if (event.target.style.opacity == 1) {
-        blackHor.style.opacity = 0;
-        } event.target.style.opacity = 1;
-    });
+    if (event.target.classList.contains('iphone')) {
+            blackHor.classList.toggle('display-visible');
+    }
+});    
 //slider
 let slide = document.querySelectorAll('.slide');
 let currentSlide = 0;

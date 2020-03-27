@@ -186,13 +186,14 @@ a:not(.current) {
     left: 11%;
 
 }
- 
+ .display-visible {
+    visibility: hidden;
+ }
 .vertical-black {
      position: absolute;
      top: 19%;
      left: 11.95%;
      width: 19%;
-     opacity: 0;
     }
 
  .horisontal .iphone{   
@@ -207,10 +208,9 @@ a:not(.current) {
  .horisontal-black {
      transform: rotate(90deg);
      position: absolute;
-     top: 19%;
+     top: 19.5%;
      left: 54.3%;   
      width: 19%;
-     opacity: 0;
  }
  
  
@@ -1275,7 +1275,6 @@ a {
             .button-nav {
                 margin-top: -30px;
                 margin-bottom: 10px;
-                justify-content: space-between;
             }
             .portfolio_cont {
                 padding: 30px;
