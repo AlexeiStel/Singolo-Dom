@@ -564,7 +564,7 @@ p {
     margin-left: 0px;
 }
 .worker__person:last-child {
-    margin-left: 0px;
+    margin-right: 0px;
 }
 .worker__person::before {
     content: "";
